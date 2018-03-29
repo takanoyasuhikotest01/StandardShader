@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Flare
+  m_Shader: {fileID: 4800000, guid: 4d253e50617802e4e8b947b93082c262, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 6d3c0bfd2fdd07049b2e57d485db4c77, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: a6088d78c0dbf4657b57dcb25a795fcb, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalTex:
+        m_Texture: {fileID: 2800000, guid: 61de62b508346be458a93d10f27e87d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Detail:
+        m_Texture: {fileID: 2800000, guid: 97b050d43ac7c4d2b9f6cbb587650761, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 6b837ffda243ccb4f9d3ddb61733e695, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: c82621ddc667ca945bb07b266ef369ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 2800000, guid: 61de62b508346be458a93d10f27e87d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 20f808126c812714993d79d3d19b32a7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normalmap:
+        m_Texture: {fileID: 2800000, guid: 531c14f8d5cdc4e5baa83ee6e16f783a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 2800000, guid: 6d3c0bfd2fdd07049b2e57d485db4c77, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0
+    - _Cutoff: 0.7392857
+    - _EmissionLM: 0
+    - _Gloss: 0.5
+    - _Parallax: 0.011696428
+    - _Shininess: 0.17225015
+    - _SpecularPower: 0.5
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorEmission: {r: 0.4980392, g: 0.4980392, b: 0.4980392, a: 1}
+    - _Emission: {r: 0.24137974, g: 0, b: 1, a: 0}
+    - _MainColor: {r: 0.4980392, g: 0.4980392, b: 0.4980392, a: 1}
+    - _Pan: {r: 0, g: 0, b: 0, a: 0}
+    - _PanBM: {r: 0, g: 0, b: 0, a: 0}
+    - _PanD: {r: 0, g: 0, b: 0, a: 0}
+    - _PanDT: {r: 0, g: 0, b: 0, a: 0}
+    - _PanIL: {r: 0, g: 0, b: 0, a: 0}
+    - _PanMT: {r: 0, g: 0, b: 0, a: 0}
+    - _PanPM: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5921569}
+    - _RotBM: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _RotD: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _RotDT: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _RotIL: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _RotMT: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _RotPM: {r: 0.5, g: 0.5, b: 0.81, a: 0}
+    - _Rotation: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.82068944, g: 1, b: 0, a: 1}
+    - _SpecularColor: {r: 0.4980392, g: 0.4980392, b: 0.4980392, a: 1}
